@@ -4,12 +4,14 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <section className="relative pt-20 h-screen w-full overflow-hidden">
+    <section className="relative h-screen w-full overflow-hidden">
       <Image
         src="/Header.jpg"
-        layout="fill"
+        width={1500}
+        height={200}
         objectFit="cover"
         alt="Background"
+        className="w-full"
       />
       <div className="absolute inset-0 flex flex-col justify-center items-start h-full p-10">
         <h1 className="text-5xl font-bold text-white mb-30">Born to explore</h1>
